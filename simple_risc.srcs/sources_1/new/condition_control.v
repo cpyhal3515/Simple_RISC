@@ -88,7 +88,7 @@ module condition_control(
     end
 
 
-    always@(posedge clk or negedge rst_n) begin
+    always@(posedge clk) begin
         if(!ena) begin
             {pc_inc, rd, wr, load_acc} <= 4'b0000;
             {load_ir, load_pc, datacontrol_en, halt} <= 4'b0000;

@@ -2,220 +2,237 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sun May  8 20:46:58 2022
-# Process ID: 31180
-# Current directory: E:/FPGA_Workspace/Simple RISC
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18564 E:\FPGA_Workspace\Simple RISC\simple_risc.xpr
-# Log file: E:/FPGA_Workspace/Simple RISC/vivado.log
-# Journal file: E:/FPGA_Workspace/Simple RISC\vivado.jou
+# Start of session at: Mon May  9 11:30:44 2022
+# Process ID: 25040
+# Current directory: E:/Github/Simple RISC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8320 E:\Github\Simple RISC\simple_risc.xpr
+# Log file: E:/Github/Simple RISC/vivado.log
+# Journal file: E:/Github/Simple RISC\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {E:/FPGA_Workspace/Simple RISC/simple_risc.xpr}
-WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/FPGA_Workspace/Simple RISC/simple_risc.gen/sources_1'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/alu.v'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v'.
+open_project {E:/Github/Simple RISC/simple_risc.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/FPGA_Workspace/Simple RISC' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'E:/Github/Simple RISC/simple_risc.gen/sources_1', nor could it be found using path 'E:/FPGA_Workspace/Simple RISC/simple_risc.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
 update_compile_order -fileset sources_1
-add_files {{E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/ram_test.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/rom_test.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/addr_decode.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/alu.v}}
-update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files {{E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/addr_decode.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/ram_test.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/rom_test.v}}] -no_script -reset -force -quiet
-remove_files  {{E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/addr_decode.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/ram_test.v} {E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/rom_test.v}}
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/alu.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v}}] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v}}] -no_script -reset -force -quiet
-remove_files  {{C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v} {C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v} {C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/alu.v} {C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v} {C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v} {C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v} {C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v} {C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v} {C:/Users/lenovo/Desktop/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v}}
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FPGA_Workspace/Simple RISC/simple_risc.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'risc_cpu_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FPGA_Workspace/Simple RISC/simple_risc.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj risc_cpu_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module accumulator
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/addr_decode.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module addr_decode
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module address_multiplexer
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/alu.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module alu
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module clock_manager
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module command_register
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module condition_control
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module data_controller
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module program_counter
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/ram_test.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module ram_test
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module risc_cpu
-INFO: [VRFC 10-2458] undeclared symbol load_pc, assumed default net type wire [E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v:86]
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/rom_test.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rom_test
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module risc_cpu_tb
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FPGA_Workspace/Simple RISC/simple_risc.sim/sim_1/behav/xsim'
-"xelab -wto 061f08f5504b4494aeb39d12a4d6b738 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot risc_cpu_tb_behav xil_defaultlib.risc_cpu_tb xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator 2020.2
-Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: D:/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 061f08f5504b4494aeb39d12a4d6b738 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot risc_cpu_tb_behav xil_defaultlib.risc_cpu_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 13 differs from formal bit length 10 for port 'addr' [E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v:46]
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.clock_manager
-Compiling module xil_defaultlib.command_register
-Compiling module xil_defaultlib.accumulator
-Compiling module xil_defaultlib.alu
-Compiling module xil_defaultlib.condition_control
-Compiling module xil_defaultlib.data_controller
-Compiling module xil_defaultlib.address_multiplexer
-Compiling module xil_defaultlib.program_counter
-Compiling module xil_defaultlib.risc_cpu
-Compiling module xil_defaultlib.ram_test
-Compiling module xil_defaultlib.rom_test
-Compiling module xil_defaultlib.addr_decode
-Compiling module xil_defaultlib.risc_cpu_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot risc_cpu_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FPGA_Workspace/Simple RISC/simple_risc.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "risc_cpu_tb_behav -key {Behavioral:sim_1:Functional:risc_cpu_tb} -tclbatch {risc_cpu_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.2
-Time resolution is 1 ps
-source risc_cpu_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: risc_cpu
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1768.609 ; gain = 242.730
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'risc_cpu' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clock_manager' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v:23]
+	Parameter S1 bound to: 8'b00000001 
+	Parameter S2 bound to: 8'b00000010 
+	Parameter S3 bound to: 8'b00000100 
+	Parameter S4 bound to: 8'b00001000 
+	Parameter S5 bound to: 8'b00010000 
+	Parameter S6 bound to: 8'b00100000 
+	Parameter S7 bound to: 8'b01000000 
+	Parameter S8 bound to: 8'b10000000 
+	Parameter IDLE bound to: 8'b00000000 
+INFO: [Synth 8-6155] done synthesizing module 'clock_manager' (1#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v:23]
+INFO: [Synth 8-6157] synthesizing module 'command_register' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'command_register' (2#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v:23]
+INFO: [Synth 8-6157] synthesizing module 'accumulator' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'accumulator' (3#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:23]
+	Parameter HLT bound to: 3'b000 
+	Parameter SKZ bound to: 3'b001 
+	Parameter ADD bound to: 3'b010 
+	Parameter ANDD bound to: 3'b011 
+	Parameter XORR bound to: 3'b100 
+	Parameter LDA bound to: 3'b101 
+	Parameter STO bound to: 3'b110 
+	Parameter JMP bound to: 3'b111 
+INFO: [Synth 8-226] default block is never used [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (4#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'condition_control' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v:23]
+	Parameter HLT bound to: 3'b000 
+	Parameter SKZ bound to: 3'b001 
+	Parameter ADD bound to: 3'b010 
+	Parameter ANDD bound to: 3'b011 
+	Parameter XORR bound to: 3'b100 
+	Parameter LDA bound to: 3'b101 
+	Parameter STO bound to: 3'b110 
+	Parameter JMP bound to: 3'b111 
+	Parameter IDLE bound to: 8'b00000000 
+	Parameter S1 bound to: 8'b00000001 
+	Parameter S2 bound to: 8'b00000010 
+	Parameter S3 bound to: 8'b00000100 
+	Parameter S4 bound to: 8'b00001000 
+	Parameter S5 bound to: 8'b00010000 
+	Parameter S6 bound to: 8'b00100000 
+	Parameter S7 bound to: 8'b01000000 
+	Parameter S8 bound to: 8'b10000000 
+ERROR: [Synth 8-91] ambiguous clock in event control [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v:91]
+ERROR: [Synth 8-6156] failed synthesizing module 'condition_control' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'risc_cpu' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1844.508 ; gain = 318.629
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+12 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: risc_cpu
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1844.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'risc_cpu' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clock_manager' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v:23]
+	Parameter S1 bound to: 8'b00000001 
+	Parameter S2 bound to: 8'b00000010 
+	Parameter S3 bound to: 8'b00000100 
+	Parameter S4 bound to: 8'b00001000 
+	Parameter S5 bound to: 8'b00010000 
+	Parameter S6 bound to: 8'b00100000 
+	Parameter S7 bound to: 8'b01000000 
+	Parameter S8 bound to: 8'b10000000 
+	Parameter IDLE bound to: 8'b00000000 
+INFO: [Synth 8-6155] done synthesizing module 'clock_manager' (1#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v:23]
+INFO: [Synth 8-6157] synthesizing module 'command_register' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'command_register' (2#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v:23]
+INFO: [Synth 8-6157] synthesizing module 'accumulator' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'accumulator' (3#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:23]
+	Parameter HLT bound to: 3'b000 
+	Parameter SKZ bound to: 3'b001 
+	Parameter ADD bound to: 3'b010 
+	Parameter ANDD bound to: 3'b011 
+	Parameter XORR bound to: 3'b100 
+	Parameter LDA bound to: 3'b101 
+	Parameter STO bound to: 3'b110 
+	Parameter JMP bound to: 3'b111 
+INFO: [Synth 8-226] default block is never used [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (4#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'condition_control' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v:23]
+	Parameter HLT bound to: 3'b000 
+	Parameter SKZ bound to: 3'b001 
+	Parameter ADD bound to: 3'b010 
+	Parameter ANDD bound to: 3'b011 
+	Parameter XORR bound to: 3'b100 
+	Parameter LDA bound to: 3'b101 
+	Parameter STO bound to: 3'b110 
+	Parameter JMP bound to: 3'b111 
+	Parameter IDLE bound to: 8'b00000000 
+	Parameter S1 bound to: 8'b00000001 
+	Parameter S2 bound to: 8'b00000010 
+	Parameter S3 bound to: 8'b00000100 
+	Parameter S4 bound to: 8'b00001000 
+	Parameter S5 bound to: 8'b00010000 
+	Parameter S6 bound to: 8'b00100000 
+	Parameter S7 bound to: 8'b01000000 
+	Parameter S8 bound to: 8'b10000000 
+ERROR: [Synth 8-91] ambiguous clock in event control [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v:91]
+ERROR: [Synth 8-6156] failed synthesizing module 'condition_control' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'risc_cpu' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1844.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+11 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: risc_cpu
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1844.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'risc_cpu' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clock_manager' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v:23]
+	Parameter S1 bound to: 8'b00000001 
+	Parameter S2 bound to: 8'b00000010 
+	Parameter S3 bound to: 8'b00000100 
+	Parameter S4 bound to: 8'b00001000 
+	Parameter S5 bound to: 8'b00010000 
+	Parameter S6 bound to: 8'b00100000 
+	Parameter S7 bound to: 8'b01000000 
+	Parameter S8 bound to: 8'b10000000 
+	Parameter IDLE bound to: 8'b00000000 
+INFO: [Synth 8-6155] done synthesizing module 'clock_manager' (1#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v:23]
+INFO: [Synth 8-6157] synthesizing module 'command_register' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'command_register' (2#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v:23]
+INFO: [Synth 8-6157] synthesizing module 'accumulator' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'accumulator' (3#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:23]
+	Parameter HLT bound to: 3'b000 
+	Parameter SKZ bound to: 3'b001 
+	Parameter ADD bound to: 3'b010 
+	Parameter ANDD bound to: 3'b011 
+	Parameter XORR bound to: 3'b100 
+	Parameter LDA bound to: 3'b101 
+	Parameter STO bound to: 3'b110 
+	Parameter JMP bound to: 3'b111 
+INFO: [Synth 8-226] default block is never used [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (4#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'condition_control' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v:23]
+	Parameter HLT bound to: 3'b000 
+	Parameter SKZ bound to: 3'b001 
+	Parameter ADD bound to: 3'b010 
+	Parameter ANDD bound to: 3'b011 
+	Parameter XORR bound to: 3'b100 
+	Parameter LDA bound to: 3'b101 
+	Parameter STO bound to: 3'b110 
+	Parameter JMP bound to: 3'b111 
+	Parameter IDLE bound to: 8'b00000000 
+	Parameter S1 bound to: 8'b00000001 
+	Parameter S2 bound to: 8'b00000010 
+	Parameter S3 bound to: 8'b00000100 
+	Parameter S4 bound to: 8'b00001000 
+	Parameter S5 bound to: 8'b00010000 
+	Parameter S6 bound to: 8'b00100000 
+	Parameter S7 bound to: 8'b01000000 
+	Parameter S8 bound to: 8'b10000000 
+INFO: [Synth 8-6155] done synthesizing module 'condition_control' (5#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'data_controller' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'data_controller' (6#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v:23]
+INFO: [Synth 8-6157] synthesizing module 'address_multiplexer' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'address_multiplexer' (7#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (8#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'risc_cpu' (9#1) [E:/Github/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1862.461 ; gain = 17.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1885.402 ; gain = 40.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1885.402 ; gain = 40.895
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1885.402 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
 
-****************************************
-*THE FOLLOWING DEBUG TASK ARE AVAILABLE:*
-*"testl;"to load the lst diagnostic progran.*
-*"test2;"to load the2 nd diagnostic program,*
-*"test3;"to load the Fibonacci program.*
-****************************************
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
 
-rom loaded successfully!
-ram loaded successfully!
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2020.945 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
 
- ** RUNNING CPUtest1 -The Basic CPU Diagnostic Program ***
-
- TIME PC INSTR ADDR DATA
-------------------------------------
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'risc_cpu_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1177.051 ; gain = 32.574
-run all
-    1300.0ns 0000  JMP 0000 zz
-    2100.0ns 003c  JMP 003c zz
-    2900.0ns 0006  LDA 1806 00
-    3700.0ns 0008  SKZ 0000 zz
-    4500.0ns 000c  LDA 1800 ff
-    5300.0ns 000e  SKZ 0001 zz
-    6100.0ns 0010  JMP 0000 zz
-    6900.0ns 0014  STO 1814 ff
-    7700.0ns 0016  LDA 1802 00
-    8500.0ns 0018  STO 1800 00
-    9300.0ns 001a  LDA 1802 00
-   10100.0ns 001c  SKZ 0002 zz
-   10900.0ns 0020  XOR 1800 ff
-   11700.0ns 0022  SKZ 0001 zz
-   12500.0ns 0024  JMP 0000 zz
-   13300.0ns 0028  XOR 1828 ff
-   14100.0ns 002a  SKZ 0001 zz
-   14900.0ns 002e  HLT 0000 zz
-   15700.0ns 0030  HLT 0000 zz
-$stop called at time : 15841 ns : File "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v" Line 68
-run all
-rom loaded successfully!
-ram loaded successfully!
-
- ** RUNNING CPUtest2 -The Basic CPU Diagnostic Program ***
-
- TIME PC INSTR ADDR DATA
-------------------------------------
-   16600.0ns 0000  LDA 1800 aa
-   17400.0ns 0002  AND 1801 ff
-   18200.0ns 0004  XOR 1802 aa
-   19000.0ns 0006  SKZ 0001 zz
-   19800.0ns 000a  ADD 1800 01
-   20600.0ns 000c  SKZ 0000 zz
-   21400.0ns 000e  JMP 0000 zz
-   22200.0ns 0012  XOR 1812 ff
-   23000.0ns 0014  ADD 1802 01
-   23800.0ns 0016  STO 1800 ff
-   24600.0ns 0018  LDA 1803 01
-   25400.0ns 001a  ADD 1800 ff
-   26200.0ns 001c  SKZ 0003 zz
-   27000.0ns 0020  HLT 0000 zz
-$stop called at time : 27662 ns : File "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v" Line 70
-run all
-rom loaded successfully!
-ram loaded successfully!
-
- ** RUNNING CPUtest3 -The Basic CPU Diagnostic Program ***
-***This program should calculate the fibonacci***
-
- TIME FIBONACCI NUMBER
-------------------------------------
-   33600.0ns   0
-   40800.0ns   1
-   48000.0ns   1
-   55200.0ns   2
-   62400.0ns   3
-   69600.0ns   5
-   76800.0ns   8
-   84000.0ns  13
-   91200.0ns  21
-   98400.0ns  34
-  105600.0ns  55
-  112800.0ns  89
-  120000.0ns 144
-$stop called at time : 122183 ns : File "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v" Line 72
-open_wave_config {E:/FPGA_Workspace/Simple RISC/risc_cpu_tb_behav.wcfg}
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 2204.711 ; gain = 360.203
+21 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 2204.711 ; gain = 360.203
 exit
-INFO: [Common 17-206] Exiting Vivado at Sun May  8 20:51:05 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon May  9 11:34:52 2022...
