@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/addr_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module address_multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_manager
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module command_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module condition_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/ram_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module risc_cpu
+INFO: [VRFC 10-2458] undeclared symbol load_pc, assumed default net type wire [E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v:86]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/rom_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module risc_cpu_tb

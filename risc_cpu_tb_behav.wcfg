@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="risc_cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="risc_cpu_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="118659666fs"></ZoomStartTime>
+      <ZoomEndTime time="122887667fs"></ZoomEndTime>
+      <Cursor1Time time="122183000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="348"></NameColumnWidth>
+      <ValueColumnWidth column_width="167"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wave_markers>
+      <marker time="18100000" label="" />
+      <marker time="17300000" label="" />
+      <marker time="116800000" label="" />
+      <marker time="117600000" label="" />
+   </wave_markers>
+   <wvobject fp_name="group1420" type="group">
+      <obj_property name="label">t_cpu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/rd" type="logic">
+         <obj_property name="ElementShortName">rd</obj_property>
+         <obj_property name="ObjectShortName">rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/wr" type="logic">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/addr" type="array">
+         <obj_property name="ElementShortName">addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/data" type="array">
+         <obj_property name="ElementShortName">data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/alu_en" type="logic">
+         <obj_property name="ElementShortName">alu_en</obj_property>
+         <obj_property name="ObjectShortName">alu_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/fetch" type="logic">
+         <obj_property name="ElementShortName">fetch</obj_property>
+         <obj_property name="ObjectShortName">fetch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/module_clk" type="logic">
+         <obj_property name="ElementShortName">module_clk</obj_property>
+         <obj_property name="ObjectShortName">module_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/operation" type="array">
+         <obj_property name="ElementShortName">operation[2:0]</obj_property>
+         <obj_property name="ObjectShortName">operation[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/pc_addr" type="array">
+         <obj_property name="ElementShortName">pc_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/ir_addr" type="array">
+         <obj_property name="ElementShortName">ir_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">ir_addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/load_ir" type="logic">
+         <obj_property name="ElementShortName">load_ir</obj_property>
+         <obj_property name="ObjectShortName">load_ir</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/load_acc" type="logic">
+         <obj_property name="ElementShortName">load_acc</obj_property>
+         <obj_property name="ObjectShortName">load_acc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/pc_inc" type="logic">
+         <obj_property name="ElementShortName">pc_inc</obj_property>
+         <obj_property name="ObjectShortName">pc_inc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/datacontrol_en" type="logic">
+         <obj_property name="ElementShortName">datacontrol_en</obj_property>
+         <obj_property name="ObjectShortName">datacontrol_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/halt" type="logic">
+         <obj_property name="ElementShortName">halt</obj_property>
+         <obj_property name="ObjectShortName">halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/accum" type="array">
+         <obj_property name="ElementShortName">accum[7:0]</obj_property>
+         <obj_property name="ObjectShortName">accum[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/load_pc" type="logic">
+         <obj_property name="ElementShortName">load_pc</obj_property>
+         <obj_property name="ObjectShortName">load_pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/alu_out" type="array">
+         <obj_property name="ElementShortName">alu_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1421" type="group">
+      <obj_property name="label">t_ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_ram/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_ram/rd" type="logic">
+         <obj_property name="ElementShortName">rd</obj_property>
+         <obj_property name="ObjectShortName">rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_ram/wr" type="logic">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_ram/addr" type="array">
+         <obj_property name="ElementShortName">addr[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_ram/data" type="array">
+         <obj_property name="ElementShortName">data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_ram/mem" type="array">
+         <obj_property name="ElementShortName">mem[15:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[15:0][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1422" type="group">
+      <obj_property name="label">t_rom</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_rom/rd" type="logic">
+         <obj_property name="ElementShortName">rd</obj_property>
+         <obj_property name="ObjectShortName">rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_rom/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_rom/addr" type="array">
+         <obj_property name="ElementShortName">addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_rom/data" type="array">
+         <obj_property name="ElementShortName">data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_rom/mem" type="array">
+         <obj_property name="ElementShortName">mem[69:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[69:0][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1423" type="group">
+      <obj_property name="label">t_addr_decode</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_addr_decode/addr" type="array">
+         <obj_property name="ElementShortName">addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_addr_decode/rom_en" type="logic">
+         <obj_property name="ElementShortName">rom_en</obj_property>
+         <obj_property name="ObjectShortName">rom_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_addr_decode/ram_en" type="logic">
+         <obj_property name="ElementShortName">ram_en</obj_property>
+         <obj_property name="ObjectShortName">ram_en</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1460">
+      <obj_property name="label">t_cpu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1461" type="group">
+      <obj_property name="label">clock_manager</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/clock_manager1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/clock_manager1/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/clock_manager1/alu_en" type="logic">
+         <obj_property name="ElementShortName">alu_en</obj_property>
+         <obj_property name="ObjectShortName">alu_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/clock_manager1/fetch" type="logic">
+         <obj_property name="ElementShortName">fetch</obj_property>
+         <obj_property name="ObjectShortName">fetch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/clock_manager1/module_clk" type="logic">
+         <obj_property name="ElementShortName">module_clk</obj_property>
+         <obj_property name="ObjectShortName">module_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/clock_manager1/state" type="array">
+         <obj_property name="ElementShortName">state[7:0]</obj_property>
+         <obj_property name="ObjectShortName">state[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/clock_manager1/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[7:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1469" type="group">
+      <obj_property name="label">command_register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/command_register1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/command_register1/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/command_register1/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/command_register1/data" type="array">
+         <obj_property name="ElementShortName">data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/command_register1/operation" type="array">
+         <obj_property name="ElementShortName">operation[2:0]</obj_property>
+         <obj_property name="ObjectShortName">operation[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/command_register1/ir_addr" type="array">
+         <obj_property name="ElementShortName">ir_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">ir_addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/command_register1/cmd_reg" type="array">
+         <obj_property name="ElementShortName">cmd_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cmd_reg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/command_register1/state" type="array">
+         <obj_property name="ElementShortName">state[15:0]</obj_property>
+         <obj_property name="ObjectShortName">state[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1478" type="group">
+      <obj_property name="label">condition_control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/operation" type="array">
+         <obj_property name="ElementShortName">operation[2:0]</obj_property>
+         <obj_property name="ObjectShortName">operation[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/pc_inc" type="logic">
+         <obj_property name="ElementShortName">pc_inc</obj_property>
+         <obj_property name="ObjectShortName">pc_inc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/rd" type="logic">
+         <obj_property name="ElementShortName">rd</obj_property>
+         <obj_property name="ObjectShortName">rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/wr" type="logic">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/load_acc" type="logic">
+         <obj_property name="ElementShortName">load_acc</obj_property>
+         <obj_property name="ObjectShortName">load_acc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/load_ir" type="logic">
+         <obj_property name="ElementShortName">load_ir</obj_property>
+         <obj_property name="ObjectShortName">load_ir</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/load_pc" type="logic">
+         <obj_property name="ElementShortName">load_pc</obj_property>
+         <obj_property name="ObjectShortName">load_pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/datacontrol_en" type="logic">
+         <obj_property name="ElementShortName">datacontrol_en</obj_property>
+         <obj_property name="ObjectShortName">datacontrol_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/halt" type="logic">
+         <obj_property name="ElementShortName">halt</obj_property>
+         <obj_property name="ObjectShortName">halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/state" type="array">
+         <obj_property name="ElementShortName">state[7:0]</obj_property>
+         <obj_property name="ObjectShortName">state[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/condition_control1/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[7:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1527" type="group">
+      <obj_property name="label">address_multiplexer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_adr/fetch" type="logic">
+         <obj_property name="ElementShortName">fetch</obj_property>
+         <obj_property name="ObjectShortName">fetch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_adr/ir_addr" type="array">
+         <obj_property name="ElementShortName">ir_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">ir_addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_adr/pc_addr" type="array">
+         <obj_property name="ElementShortName">pc_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_adr/addr" type="array">
+         <obj_property name="ElementShortName">addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[12:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1533" type="group">
+      <obj_property name="label">program_counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/program_counter1/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/program_counter1/load_pc" type="logic">
+         <obj_property name="ElementShortName">load_pc</obj_property>
+         <obj_property name="ObjectShortName">load_pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/program_counter1/pc_inc" type="logic">
+         <obj_property name="ElementShortName">pc_inc</obj_property>
+         <obj_property name="ObjectShortName">pc_inc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/program_counter1/ir_addr" type="array">
+         <obj_property name="ElementShortName">ir_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">ir_addr[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/program_counter1/pc_addr" type="array">
+         <obj_property name="ElementShortName">pc_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_addr[12:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group197" type="group">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_alu/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_alu/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_alu/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_alu/accum" type="array">
+         <obj_property name="ElementShortName">accum[7:0]</obj_property>
+         <obj_property name="ObjectShortName">accum[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_alu/data" type="array">
+         <obj_property name="ElementShortName">data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_alu/operation" type="array">
+         <obj_property name="ElementShortName">operation[2:0]</obj_property>
+         <obj_property name="ObjectShortName">operation[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_alu/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/m_alu/alu_out" type="array">
+         <obj_property name="ElementShortName">alu_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group218" type="group">
+      <obj_property name="label">data_controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/data_controller1/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/data_controller1/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc_cpu_tb/t_cpu/data_controller1/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/mnemonic" type="array">
+      <obj_property name="ElementShortName">mnemonic[24:0]</obj_property>
+      <obj_property name="ObjectShortName">mnemonic[24:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+</wave_config>

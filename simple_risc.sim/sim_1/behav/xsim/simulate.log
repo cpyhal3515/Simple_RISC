@@ -1,0 +1,81 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+
+****************************************
+*THE FOLLOWING DEBUG TASK ARE AVAILABLE:*
+*"testl;"to load the lst diagnostic progran.*
+*"test2;"to load the2 nd diagnostic program,*
+*"test3;"to load the Fibonacci program.*
+****************************************
+
+rom loaded successfully!
+ram loaded successfully!
+
+ ** RUNNING CPUtest1 -The Basic CPU Diagnostic Program ***
+
+ TIME PC INSTR ADDR DATA
+------------------------------------
+    1300.0ns 0000  JMP 0000 zz
+    2100.0ns 003c  JMP 003c zz
+    2900.0ns 0006  LDA 1806 00
+    3700.0ns 0008  SKZ 0000 zz
+    4500.0ns 000c  LDA 1800 ff
+    5300.0ns 000e  SKZ 0001 zz
+    6100.0ns 0010  JMP 0000 zz
+    6900.0ns 0014  STO 1814 ff
+    7700.0ns 0016  LDA 1802 00
+    8500.0ns 0018  STO 1800 00
+    9300.0ns 001a  LDA 1802 00
+   10100.0ns 001c  SKZ 0002 zz
+   10900.0ns 0020  XOR 1800 ff
+   11700.0ns 0022  SKZ 0001 zz
+   12500.0ns 0024  JMP 0000 zz
+   13300.0ns 0028  XOR 1828 ff
+   14100.0ns 002a  SKZ 0001 zz
+   14900.0ns 002e  HLT 0000 zz
+   15700.0ns 0030  HLT 0000 zz
+$stop called at time : 15841 ns : File "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v" Line 68
+rom loaded successfully!
+ram loaded successfully!
+
+ ** RUNNING CPUtest2 -The Basic CPU Diagnostic Program ***
+
+ TIME PC INSTR ADDR DATA
+------------------------------------
+   16600.0ns 0000  LDA 1800 aa
+   17400.0ns 0002  AND 1801 ff
+   18200.0ns 0004  XOR 1802 aa
+   19000.0ns 0006  SKZ 0001 zz
+   19800.0ns 000a  ADD 1800 01
+   20600.0ns 000c  SKZ 0000 zz
+   21400.0ns 000e  JMP 0000 zz
+   22200.0ns 0012  XOR 1812 ff
+   23000.0ns 0014  ADD 1802 01
+   23800.0ns 0016  STO 1800 ff
+   24600.0ns 0018  LDA 1803 01
+   25400.0ns 001a  ADD 1800 ff
+   26200.0ns 001c  SKZ 0003 zz
+   27000.0ns 0020  HLT 0000 zz
+$stop called at time : 27662 ns : File "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v" Line 70
+rom loaded successfully!
+ram loaded successfully!
+
+ ** RUNNING CPUtest3 -The Basic CPU Diagnostic Program ***
+***This program should calculate the fibonacci***
+
+ TIME FIBONACCI NUMBER
+------------------------------------
+   33600.0ns   0
+   40800.0ns   1
+   48000.0ns   1
+   55200.0ns   2
+   62400.0ns   3
+   69600.0ns   5
+   76800.0ns   8
+   84000.0ns  13
+   91200.0ns  21
+   98400.0ns  34
+  105600.0ns  55
+  112800.0ns  89
+  120000.0ns 144
+$stop called at time : 122183 ns : File "E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v" Line 72

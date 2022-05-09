@@ -1,0 +1,7 @@
+//-----------------test3_ram.dat开始------------------------------------------------ 
+@00 
+ 00000001 // 1800 FN1: //data storage for 1st Fib. No. 
+ 00000000 // 1801 FN2: //data storage for 2nd Fib. No. 
+ 00000000 // 1802 TEMP: //temproray data storage 
+ 10010000 // 1803 LIMIT: //max value to calculate 144(dec) 
+//-----------------------------test3.pro结束--------------------------------------------

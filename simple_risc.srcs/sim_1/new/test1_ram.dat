@@ -1,0 +1,6 @@
+// -----------------test1_ram.dat开始------------------------------------------------ 
+@00 //address statement at RAM 
+ 00000000 // 1800 DATA_1: //constant 00(hex) 
+ 11111111 // 1801 DATA_2: //constant FF(hex) 
+ 10101010 // 1802 TEMP: //variable - starts with AA(hex) 
+//------------------------------test1.dat的结束

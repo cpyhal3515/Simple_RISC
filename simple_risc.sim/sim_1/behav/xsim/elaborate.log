@@ -1,0 +1,26 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 061f08f5504b4494aeb39d12a4d6b738 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot risc_cpu_tb_behav xil_defaultlib.risc_cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 13 differs from formal bit length 10 for port 'addr' [E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_manager
+Compiling module xil_defaultlib.command_register
+Compiling module xil_defaultlib.accumulator
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.condition_control
+Compiling module xil_defaultlib.data_controller
+Compiling module xil_defaultlib.address_multiplexer
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.risc_cpu
+Compiling module xil_defaultlib.ram_test
+Compiling module xil_defaultlib.rom_test
+Compiling module xil_defaultlib.addr_decode
+Compiling module xil_defaultlib.risc_cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot risc_cpu_tb_behav

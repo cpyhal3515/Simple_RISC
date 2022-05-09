@@ -1,0 +1,19 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+,,,,,,,,,,,,,,
+E:/FPGA_Workspace/Simple RISC/simple_risc.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v,1651976201,verilog,,,,risc_cpu_tb,,,,,,,,
+E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/accumulator.v,1651975339,verilog,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/addr_decode.v,,accumulator,,,,,,,,
+E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/addr_decode.v,1652003970,verilog,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/address_multiplexer.v,,addr_decode,,,,,,,,
+,,,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/alu.v,,address_multiplexer,,,,,,,,
+,,,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/clock_manager.v,,alu,,,,,,,,
+,,,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/command_register.v,,clock_manager,,,,,,,,
+,,,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/condition_control.v,,command_register,,,,,,,,
+,,,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/data_controller.v,,condition_control,,,,,,,,
+,,,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/program_counter.v,,data_controller,,,,,,,,
+,,,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/ram_test.v,,program_counter,,,,,,,,
+E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/ram_test.v,1651921459,verilog,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/risc_cpu.v,,ram_test,,,,,,,,
+,,,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/rom_test.v,,risc_cpu,,,,,,,,
+E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sources_1/new/rom_test.v,1651921505,verilog,,E:/FPGA_Workspace/Simple RISC/simple_risc.srcs/sim_1/new/risc_cpu_tb.v,,rom_test,,,,,,,,
